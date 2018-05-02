@@ -41,6 +41,7 @@ artifacts {
 }
 
 // Bintray
+def is = null
 Properties properties = new Properties()
 try {
     is = file(System.properties['user.home'] + '/.commonconf').newDataInputStream();
